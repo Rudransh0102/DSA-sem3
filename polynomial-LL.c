@@ -22,7 +22,7 @@ struct Node *multiplyPolynomialLL(struct Node *head1, struct Node *head2, struct
   {
     while (ptr2 != NULL)
     {
-      int coefficient, exponent;
+      int coeff, exponent;
       coeff = ptr1->coefficient * ptr2->coefficient;
       exponent = ptr1->exponent + ptr2->exponent;
       head3 = appendNode(head3, coeff, exponent);
