@@ -12,7 +12,7 @@ struct node
 struct node *createNode()
 {
   struct node *n;
-  n = (struct node *)malloc(sizeof(struct node));
+  n = malloc(sizeof(struct node));
   return n;
 }
 
